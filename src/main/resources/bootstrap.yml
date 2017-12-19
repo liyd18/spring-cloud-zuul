@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: zuul
+  cloud:
+    config:
+      uri: http://config:9000
+      fail-fast: true
+server:
+  port: 8008
